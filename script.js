@@ -479,7 +479,7 @@ if (contactForm) {
         status.textContent = '';
 
         try {
-            const res = await fetch('https://YOUR_WORKER_NAME.YOUR_SUBDOMAIN.workers.dev/contact', {
+            const res = await fetch('https://hamza-contact-worker.hakyorelekiaby.workers.dev/contact', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
